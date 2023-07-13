@@ -70,22 +70,28 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'try',
+          href: '/',
           src: 'img/logo.png',
         },
         items: [
-          { to: '/home', label: '首页', position: 'left' },
           { to: '/blog', label: '博客', position: 'left' },
           {
-            label: '备忘录',
+            label: '月迹（搬迁中）',
             position: 'left',
             type: 'docSidebar',
-            sidebarId: 'weeklySidebar',
+            sidebarId: 'monthlySidebar',
+          },
+          {
+            href: 'https://www.yuque.com/mrtry/blog',
+            label: '语雀',
+            position: 'right',
           },
           {
             href: 'https://github.com/mr-try',
             label: 'GitHub',
             position: 'right',
+            logo: 'img/logo.png',
           },
         ],
       },
