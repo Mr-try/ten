@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[62],{8577:e=>{e.exports=JSON.parse('{"title":"2022","description":"5 minutes to learn the most important Docusaurus concepts.","slug":"/category/2022","permalink":"/docs/category/2022","navigation":{"next":{"title":"1 \u6708","permalink":"/docs/2022/1\u6708"}}}')}}]);

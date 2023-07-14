@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>文档 Blog</title>
+        <link>https://www.try.design/blog</link>
+        <description>文档 Blog</description>
+        <lastBuildDate>Thu, 13 Jul 2023 08:16:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-cn</language>
+        <item>
+            <title><![CDATA[马上就来]]></title>
+            <link>https://www.try.design/blog/waiting</link>
+            <guid>https://www.try.design/blog/waiting</guid>
+            <pubDate>Thu, 13 Jul 2023 08:16:08 GMT</pubDate>
+            <description><![CDATA[coding]]></description>
+        </item>
+    </channel>
+</rss>
