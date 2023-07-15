@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "publish": "docusaurus build & npm run upload",
-    "upload": "cp -rf ./build ./docs",
+    "upload": "cp -rf ./build/* ./docs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
