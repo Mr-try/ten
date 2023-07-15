@@ -11,7 +11,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title="xx">
+    <Layout title="阅读笔记" noFooter>
       <main>
         <HomepageFeatures />
       </main>

@@ -11,7 +11,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '文档',
+  title: '光影',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -106,11 +106,21 @@ const config = {
         items: [
           { to: '/blog', label: '博客', position: 'left' },
           {
-            label: '月迹（搬迁中）',
+            label: '月迹',
             position: 'left',
             type: 'docSidebar',
             sidebarId: 'monthlySidebar',
           },
+          // {
+          //   to: '/read',
+          //   label: '阅读笔记',
+          //   position: 'left',
+          // },
+          // {
+          //   to: '/picture',
+          //   label: '老照片',
+          //   position: 'left',
+          // },
           {
             href: 'https://www.yuque.com/mrtry/blog',
             label: '语雀',
