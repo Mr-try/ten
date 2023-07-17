@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.try.design/blog</id>
-    <title>文档 Blog</title>
+    <title>光影 Blog</title>
     <updated>2023-07-13T08:16:08.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.try.design/blog"/>
-    <subtitle>文档 Blog</subtitle>
+    <subtitle>光影 Blog</subtitle>
     <icon>https://www.try.design/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[马上就来]]></title>
