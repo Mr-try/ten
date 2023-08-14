@@ -102,7 +102,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          { to: '/blog', label: '博客', position: 'left' },
+          // { to: '/blog', label: '博客', position: 'left' },
           {
             label: '月迹',
             position: 'left',

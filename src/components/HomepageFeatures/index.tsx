@@ -9,39 +9,45 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
+  link: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'github',
+    link: 'https://github.com/Mr-try',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: <>搬迁中</>,
+    description: <>github</>,
   },
   {
-    title: 'Focus on What Matters',
+    title: '语雀',
+    link: 'https://www.yuque.com/mrtry/blog',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: <>搬迁中</>,
+    description: <>语雀</>,
   },
   {
-    title: 'Powered by React',
+    title: 'weekly',
+    link: 'https://github.com/Mr-try/weekly',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: <>搬迁中</>,
+    description: <>weekly</>,
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, link }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <a href={link} target="_blank" className={clsx('col col--4')}>
+      <div>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          {/* <p>{description}</p> */}
+        </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
+    </a>
   );
 }
 
